@@ -186,11 +186,14 @@ h4 {
 
 .col-L {
     padding: 10px 10px 0 0;
-
+    background: #fff;
+    color: #747474;
 }
 
 .col-R {
     padding: 10px 0 0 10px;
+    background: #fff;
+    color: #747474;
 }
 
 /* section 2 */
@@ -254,7 +257,365 @@ h4 {
 
 /* section 3 */
 
-.container3{
-color: #00b39b;
-justify-content: center;
+.container3 {
+
+    display: flex;
+    width: 75%;
+    margin: auto;
+    padding: 0 1, 3%;
+
+}
+
+.child3-1 {
+    /* 
+    font-size: 50rem;
+    
+    margin: 40px 0; */
+    color: #00b39b;
+    /* width: 30%; */
+    flex-wrap: wrap;
+    font-size: 26px;
+    margin: 16px 0 11px 0;
+    padding-right: 16px;
+    width: 30%;
+}
+
+.child3-2 {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 32px 0;
+    line-height: 41px;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+
+.Partner-logo svg {
+    height: auto;
+    width: 136px;
+    max-width: 100%;
+
+    padding-right: 27px;
+}
+
+.Partner-logo svg path {
+    fill: #887b75;
+
+}
+
+.Partner-logo img {
+    height: 34px;
+    width: 130px;
+    /* size logo svg*/
+    max-width: 90%;
+}
+
+.Partner-logo svg:hover {
+    color: #00b39b;
+    /*when i click change color*/
+}
+
+.grayscale {
+    filter: invert(0.6) saturate(0.6);
+    /* change color logo img to gris*/
+    /*https://css-tricks.com/the-many-ways-to-change-an-svg-fill-on-hover-and-when-to-use-them/*/
+}
+
+.grayscale:hover {
+    filter: none;
+    /*when i click change color*/
+}
+
+/* section 4 */
+
+.container4 {
+    /* background-color: #bfeef4;
+    width: 100%;
+    display: block;
+    flex-wrap: wrap;
+    height: 80rem;
+    zoom: 1;
+    overflow: hidden; */
+
+    /* height: 600px;
+    zoom: 1;
+    padding: 20px 20px;
+    margin: 50px 0 88px 0;
+    background-color: #e5faf8;
+    background-image: linear-gradient(-45deg, rgba(0, 204, 177, .01) 5%, rgba(61, 199, 223, .1));
+    overflow: hidden;
+    /*hidden:ttna7a lktiba eli lbara lblock (visible:ktiba 7atta ta7t tab / scroll:ta3ml scroll wst tab-auto:scroll)*/
+    /* display: flex;
+    position: relative; */
+    height: 600px;
+    zoom: 1;
+    padding: 20px 20px;
+    margin: 50px 0 88px 0;
+    background-color: #e5faf8;
+    background-image: linear-gradient(-45deg, rgba(0, 204, 177, .01) 5%, rgba(61, 199, 223, .1));
+    overflow: hidden;
+    /*hidden:ttna7a lktiba eli lbara lblock (visible:ktiba 7atta ta7t tab / scroll:ta3ml scroll wst tab-auto:scroll)*/
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+
+    color: #747474;
+
+
+
+
+}
+
+.child4-1 {
+    margin-top: 57px;
+    padding-left: 77px;
+
+}
+
+.child4-1a {
+    /* margin: 60px 20% 16px 15%; */
+    padding: 0 1.3%;
+    /*****/
+    /* padding: 10px 0 0 100px; */
+    margin: 1.1% 12%;
+    /*****/
+    right: 67%;
+    top: 45%;
+    width: 456px;
+    pointer-events: none;
+
+
+}
+
+.child4-1a h2 {
+    color: #00b39b;
+    width: 400px;
+    margin: 23px 0;
+    font-size: 35px;
+
+
+}
+
+.child4-1 p {
+    width: 90%;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #747474;
+
+}
+
+.child4-1 img {
+    width: 30%;
+    height: 70%;
+    position: absolute;
+    bottom: 0px;
+    top: 45%;
+    zoom: 1;
+    max-width: 1015px;
+
+}
+
+.child4-2 {
+    display: flex;
+    padding-right: 150px;
+    /* padding-right: 150px; */
+
+
+}
+
+.child4-2a {
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center; */
+
+
+    width: 40%;
+    /* vertical-align: middle; */
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fff;
+    width: 228.750px;
+    /* width: 35%;*/
+    height: 250px;
+    border-radius: 5px;
+    align-items: center;
+    padding: 15px;
+    margin: 20px 10px;
+    overflow: hidden;
+    /*ttna7a lktiba eli bara tab*/
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+
+}
+
+.child4-2 h3 {
+    font-size: 29.53px;
+
+}
+
+.child4-2 p {
+    font-size: 13px;
+
+}
+
+/* section 5 */
+
+
+
+.child5 {
+    display: block;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    background: #fff;
+    color: #747474;
+
+}
+
+
+.child5-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 75%;
+    margin: auto;
+    gap: 10px;
+
+}
+
+.child5 h2 {
+    color: #00b39b;
+}
+
+
+
+.child5-1a img {
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.child5-1a figcaption {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6666666667;
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+.child5-1b {
+    padding: 0;
+    /**/
+    overflow: hidden;
+    /*clip the big cont or to add scrollbars(scroll) */
+    max-width: 311px;
+    /*max of position btn*/
+    z-index: 2;
+    /*order of a positioned*/
+    position: relative;
+    /*type of positioning method(static, relative, fixed, absolute or sticky)*/
+    display: block;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, .03);
+    background: #fff;
+    color: #747474;
+    box-shadow: 0 5px 10px 0 transparent;
+    transition: box-shadow .2s ease 0s;
+    /*change property when i hover :add an effect  duration   slow start, then fast, then end slowly*/
+    text-decoration: none;
+    /*not do lines under test*/
+}
+
+.child5-1b:hover {
+    box-shadow: 0 20px 50px 0 rgb(0 0 0 / 13%);
+    text-decoration: none;
+}
+
+.btn-seeopening {
+    float: right;
+    font-size: 1rem;
+    /*1rem=16px*/
+    padding: 10px 15px;
+    text-transform: uppercase;
+
+}
+
+.btn {
+    display: inline-block;
+    /*btn "next" to word "inline=same line"*/
+    vertical-align: middle;
+    /*"position" the el (word) next to btn*/
+    background: #3d83df;
+    color: #fff;
+    outline: 0;
+    /*OUTSIDE the borders */
+    border: 0;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    /*5ochn lktiba*/
+    line-height: 16px;
+    letter-spacing: .04em;
+    position: relative;
+    transition: all .2s ease 0s;
+    font-family: Roboto, Arial, sans-serif;
+    zoom: 1;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #1662c6;
+    color: #fff;
+}
+
+
+/* section 6 */
+.container6 {
+    text-align: center;
+    background: #fff;
+    color: #747474;
+    margin: 5%;
+
+
+}
+
+.container6 h2 {
+    padding: 20px;
+}
+
+
+
+.btn-Se {
+
+    font-size: 1.2rem;
+    /*1rem=16px*/
+    padding: 10px 15px;
+    height: 4rem;
+
+
+
+}
+
+/* footer */
+footer {
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding-top: 21px;
+    color: #ababab;
+    zoom: 1;
+    position: relative;
+    font-size: 12px;
+    position: relative;
+    padding-bottom: 1%;
+
+}
+
+.container7 a {
+    color: #1662c6;
+
 }
